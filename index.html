@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="reset.css" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
+    <title>Página inicial</title>
   </head>
   <body>
     <section class="header">
@@ -16,12 +22,12 @@
         <pre>Artesanato</pre>
       </div>
       <div class="title-container">
-        <h1 class="title">SAPATARIA CONTI</h1>
+        <h1 class="title">sapataria conti</h1>
       </div>
       <div class="down-header">
-        <button class="menu-button">Início</button>
-        <button class="menu-button">Produtos</button>
-        <button class="menu-button contact-button">Contato</button>
+        <button class="menu-button"><a href="index.html" target="_blank">Início</a></button>
+        <button class="menu-button"><a href="produtos.html" target="_blank">Produtos</a></button>
+        <button class="menu-button contact-button"><a href="contato.html" target="_blank">Contato</a></button>
       </div>
     </section>
     <section class="body">
@@ -36,15 +42,10 @@
           <div class="product-text">
             <strong class="product-title">Mateira</strong>
             <span class="product-description"
-              >Ideal para carregar seu chimarrão e todos os utensílios
-              necessários para preparar o mate.</span
-            >
-            <span class="product-description"
-              >Sua estrutura é de madeira e os acabamentos feitos com retalhos
-              de couro.</span
+              >Madeira e couro, feita à mão.</span
             >
           </div>
-          <strong class="price">R$110,00</strong>
+          <strong class="price">R$ 110,00</strong>
           <button class="buy-button"><b>Comprar</b></button>
         </div>
         <div class="product">
@@ -52,14 +53,10 @@
           <div class="product-text">
             <strong class="product-title">Bolsa</strong>
             <span class="product-description"
-              >Feita com retalhos de couro, é prática, leve, resistente e fácil
-              de carregar.</span
-            >
-            <span class="product-description"
-              >Feita artesalmente e costurada a mão.</span
+              >Feita à mão, com retalhos de couro.</span
             >
           </div>
-          <strong class="price">R$130,00</strong>
+          <strong class="price">R$ 130,00</strong>
           <button class="buy-button"><b>Comprar</b></button>
         </div>
         <div class="product">
@@ -67,21 +64,20 @@
           <div class="product-text">
             <strong class="product-title">Chaveiro</strong>
             <span class="product-description">
-              Confeccionado com couro trançado, ideal para manter suas chaves
-              sempre por perto.</span
-            >
+              Confeccionado com couro trançado.</span>
           </div>
-          <strong class="price">R$8,00 cada</strong>
+          <strong class="price">R$ 8,00 cada</strong>
           <button class="buy-button"><b>Comprar</b></button>
         </div>
         <div class="product">
           <img src="bolsa de mão.jpeg" class="product-image" />
           <div class="product-text">
             <strong class="product-title">Bolsa de mão</strong>
-            <span class="product-description">Compacta, leve e totalmente feita de couro.</span>
-            <span class="product-description">Ideal para o dia-a-dia e para carregar apenas o necessário.</span>
+            <span class="product-description"
+              >Compacta, leve e prática.</span
+            >
           </div>
-          <strong class="price">R$30,00</strong>
+          <strong class="price">R$ 30,00</strong>
           <button class="buy-button"><b>Comprar</b></button>
         </div>
       </div>
@@ -116,7 +112,7 @@
       <div class="contact">
         <div class="address-container">
           <div class="address">
-            <img src="casa.png" class="logo" />
+            <img src="pin-de-localizacao.png" class="logo"/>
             <span
               >Av. Borges de Medeiros, Centro, Nova Prata - RS, 95320-000</span
             >
@@ -124,7 +120,7 @@
           <span>Ao lado da Prefeitura Municipal de Nova Prata</span>
         </div>
         <div class="phone">
-          <img src="whatsapp.png" class="logo" />
+          <img src="whatsapp (2).png" class="logo"/>
           <span>(54) 99962-4584</span>
         </div>
         <div class="time-container">
@@ -136,6 +132,5 @@
         </div>
       </div>
     </section>
-    <script src="index.js"></script>
   </body>
 </html>
